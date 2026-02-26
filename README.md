@@ -5,6 +5,7 @@ Software development standards, practices, and tooling specifications for agent 
 ## Topics
 
 - **version-control-release/** - Version control standards, semantic commits, semantic versioning, and automated release processes
+- **python/** - Python development standards, project structure, tooling, and CI/CD practices
 
 ## Organization
 
@@ -14,5 +15,5 @@ This repository contains software development specifications organized by topic.
 
 ## Status
 
-Active topics: version-control-release
+Active topics: version-control-release, python
 All software development standards are finalized specifications.
