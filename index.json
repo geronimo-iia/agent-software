@@ -1,0 +1,121 @@
+{
+  "type": "docs",
+  "version": "1.0",
+  "entries": [
+    {
+      "title": "Python",
+      "summary": "Python development standards, project structure, tooling, and best practices for software projects.",
+      "path": "python/definition.md",
+      "commit_hash": "7009cdf4afe079d09a69144426bfdd836e9a46f2",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up new Python projects",
+        "Standardizing Python project structure and tooling",
+        "Configuring Python development environments",
+        "Establishing Python code quality and testing practices"
+      ]
+    },
+    {
+      "title": "Python Project Structure & Tools",
+      "summary": "Standard Python project structure using modern tooling: pyproject.toml, uv, ruff, pyright, and pytest.",
+      "path": "python/project-structure-tools.md",
+      "commit_hash": "05b29128215bcfa5932f1092aa3b4f1afb87f28a",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up new Python projects",
+        "Standardizing Python project toolchain",
+        "Configuring modern Python development environment",
+        "Establishing Python project conventions"
+      ]
+    },
+    {
+      "title": "Python CI/CD",
+      "summary": "GitHub Actions workflows for Python projects using uv, ruff, pyright, and pytest with automated quality checks.",
+      "path": "python/ci-cd.md",
+      "commit_hash": "7009cdf4afe079d09a69144426bfdd836e9a46f2",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up CI/CD for Python projects",
+        "Automating code quality checks and testing",
+        "Configuring GitHub Actions for Python toolchain",
+        "Implementing continuous integration workflows"
+      ]
+    },
+    {
+      "title": "Version Control & Release Management",
+      "summary": "Standards and practices for git workflows, semantic commits, versioning, and automated release processes.",
+      "path": "version-control-release/definition.md",
+      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up version control standards for a project",
+        "Implementing semantic commits and automated versioning",
+        "Establishing git workflows and release processes",
+        "Configuring CI/CD for automated releases"
+      ]
+    },
+    {
+      "title": "Semantic Commits",
+      "summary": "Guide for semantic commit format and conventions to standardize git history and enable automated versioning.",
+      "path": "version-control-release/git-commit-semantic.md",
+      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up commit message standards for a project",
+        "Understanding semantic commit format and conventions",
+        "Learning conventional commits specification"
+      ]
+    },
+    {
+      "title": "Semantic Versioning (SemVer)",
+      "summary": "Guide for semantic versioning principles and version calculation rules based on commit types.",
+      "path": "version-control-release/semantic-versioning.md",
+      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Understanding semantic versioning (SemVer) format and rules",
+        "Calculating version bumps from commit types",
+        "Setting up automated version management"
+      ]
+    },
+    {
+      "title": "Git Workflows & Branching Strategies",
+      "summary": "Guide for git workflow patterns, branching strategies, and release processes for software development.",
+      "path": "version-control-release/git-workflows.md",
+      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up git branching strategies and workflows",
+        "Establishing release processes and branch management",
+        "Implementing GitFlow or similar workflow patterns",
+        "Managing feature, fix, and hotfix branches"
+      ]
+    },
+    {
+      "title": "Automated Versioning Setup (Python)",
+      "summary": "Step-by-step guide for setting up automated semantic versioning, changelog generation, and release workflows for Python projects.",
+      "path": "version-control-release/automated-versioning-python.md",
+      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Implementing semantic commits with tooling automation",
+        "Setting up commitizen and conventional commits validation",
+        "Configuring automated changelog generation and versioning",
+        "Creating CI/CD workflows for semantic releases"
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-01-16T00:00:00Z",
+    "commit_hash": "05b29128215bcfa5932f1092aa3b4f1afb87f28a",
+    "total_entries": 8
+  }
+}
