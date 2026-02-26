@@ -5,7 +5,7 @@ read_when:
   - Setting up commit message standards for a project
   - Understanding semantic commit format and conventions
   - Learning conventional commits specification
-status: draft
+status: active
 last_updated: "2025-01-16"
 ---
 

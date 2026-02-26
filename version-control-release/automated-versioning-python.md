@@ -6,7 +6,7 @@ read_when:
   - Setting up commitizen and conventional commits validation
   - Configuring automated changelog generation and versioning
   - Creating CI/CD workflows for semantic releases
-status: draft
+status: active
 last_updated: "2025-01-16"
 ---
 

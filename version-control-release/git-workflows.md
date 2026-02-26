@@ -6,7 +6,7 @@ read_when:
   - Establishing release processes and branch management
   - Implementing GitFlow or similar workflow patterns
   - Managing feature, fix, and hotfix branches
-status: draft
+status: active
 last_updated: "2025-01-16"
 ---
 

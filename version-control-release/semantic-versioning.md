@@ -5,7 +5,7 @@ read_when:
   - Understanding semantic versioning (SemVer) format and rules
   - Calculating version bumps from commit types
   - Setting up automated version management
-status: draft
+status: active
 last_updated: "2025-01-16"
 ---
 

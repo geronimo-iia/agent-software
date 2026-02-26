@@ -14,4 +14,5 @@ This repository contains software development specifications organized by topic.
 
 ## Status
 
-All documents are draft specifications being developed and refined.
+Active topics: version-control-release
+All software development standards are finalized specifications.

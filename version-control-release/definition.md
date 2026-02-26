@@ -6,7 +6,7 @@ read_when:
   - Implementing semantic commits and automated versioning
   - Establishing git workflows and release processes
   - Configuring CI/CD for automated releases
-status: draft
+status: active
 last_updated: "2025-01-16"
 ---
 
