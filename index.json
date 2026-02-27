@@ -45,6 +45,100 @@
       ]
     },
     {
+      "title": "WebAssembly (WASM) Development Standards",
+      "summary": "Standards and practices for developing WebAssembly modules in agent systems",
+      "path": "wasm/definition.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Building WebAssembly modules for agent tools or capabilities",
+        "Setting up WASM development toolchain",
+        "Implementing portable agent components",
+        "Integrating WASM modules into agent systems"
+      ]
+    },
+    {
+      "title": "WASM Toolchain Setup",
+      "summary": "Standard toolchain configuration for WebAssembly development with Rust",
+      "path": "wasm/toolchain.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up a new WASM development environment",
+        "Configuring build tools for WASM modules",
+        "Troubleshooting WASM compilation issues"
+      ]
+    },
+    {
+      "title": "WASM Skill Design",
+      "summary": "How to design and package WASM modules as agent skills with proper gating and tool permissions",
+      "path": "wasm/skill-design.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Packaging a WASM module as an agent skill",
+        "Designing skill interfaces for WASM tools",
+        "Setting up capability gating for WASM execution",
+        "Creating reusable WASM-based agent capabilities"
+      ]
+    },
+    {
+      "title": "WASM Component Model",
+      "summary": "WIT interface conventions and wit-bindgen usage for agent WASM modules",
+      "path": "wasm/component-model.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Designing interfaces for WASM agent tools",
+        "Implementing WASM component bindings",
+        "Integrating WASM modules with agent systems"
+      ]
+    },
+    {
+      "title": "WASM Runtime Integration",
+      "summary": "How to integrate and execute WASM modules in agent systems using Wasmtime",
+      "path": "wasm/runtime.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Integrating WASM execution into agent runtime",
+        "Setting up Wasmtime host bindings",
+        "Configuring WASM module lifecycle management"
+      ]
+    },
+    {
+      "title": "WASM CI/CD Pipeline",
+      "summary": "Build pipeline, Docker builder, and testing strategies for WASM modules",
+      "path": "wasm/ci-cd.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up automated builds for WASM modules",
+        "Configuring Docker-based WASM builds",
+        "Implementing WASM module testing"
+      ]
+    },
+    {
+      "title": "WASM Security and Sandboxing",
+      "summary": "Security patterns for WASM agent tools including dual metering, capability isolation, and sandbox configuration",
+      "path": "wasm/security.md",
+      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Implementing secure WASM tool execution",
+        "Configuring resource limits for untrusted code",
+        "Setting up capability-based access control",
+        "Designing sandbox isolation for agent tools"
+      ]
+    },
+    {
       "title": "Version Control & Release Management",
       "summary": "Standards and practices for git workflows, semantic commits, versioning, and automated release processes.",
       "path": "version-control-release/definition.md",
@@ -115,7 +209,7 @@
   ],
   "metadata": {
     "generated_at": "2025-01-16T00:00:00Z",
-    "commit_hash": "05b29128215bcfa5932f1092aa3b4f1afb87f28a",
-    "total_entries": 8
+    "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+    "total_entries": 15
   }
 }
