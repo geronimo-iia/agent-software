@@ -45,6 +45,47 @@
       ]
     },
     {
+      "title": "Rust",
+      "summary": "Rust development standards, project structure, tooling, and best practices for software projects.",
+      "path": "rust/definition.md",
+      "commit_hash": "",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up new Rust projects",
+        "Standardizing Rust project structure and tooling",
+        "Configuring Rust development environments",
+        "Establishing Rust code quality and testing practices"
+      ]
+    },
+    {
+      "title": "Rust Project Structure & Tools",
+      "summary": "Standard Rust project structure using modern tooling: Cargo.toml, clippy, rustfmt, and cargo test.",
+      "path": "rust/project-structure-tools.md",
+      "commit_hash": "",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up new Rust projects",
+        "Standardizing Rust project toolchain",
+        "Configuring modern Rust development environment",
+        "Establishing Rust project conventions"
+      ]
+    },
+    {
+      "title": "Rust CI/CD",
+      "summary": "Continuous integration and deployment pipelines for Rust projects using GitHub Actions.",
+      "path": "rust/ci-cd.md",
+      "commit_hash": "",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up CI/CD for Rust projects",
+        "Configuring automated testing and releases",
+        "Establishing Rust deployment workflows"
+      ]
+    },
+    {
       "title": "WebAssembly (WASM) Development Standards",
       "summary": "Standards and practices for developing WebAssembly modules in agent systems",
       "path": "wasm/definition.md",
@@ -209,7 +250,7 @@
   ],
   "metadata": {
     "generated_at": "2025-01-16T00:00:00Z",
-    "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-    "total_entries": 15
+    "commit_hash": "2acd616e435519baf6ed65d2db1cc06bb1976fdc",
+    "total_entries": 18
   }
 }
