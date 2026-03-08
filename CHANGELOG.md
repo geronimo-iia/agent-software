@@ -7,8 +7,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
-- `rules/` — workspace rules best practices (merged from `agent-software-engineering`, moved to `agent-foundation`)
 - `information-flow-tracking/` — taint labels, propagation rules, sink policies (merged from `agent-software-engineering`)
+- `version-control-release/changelog.md` — changelog standard with format, sections, update guidelines, and release process
 
 ### Changed
 - README intro rewritten to reflect broader scope
