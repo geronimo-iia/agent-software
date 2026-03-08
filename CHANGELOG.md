@@ -15,9 +15,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [0.2.0] - 2026-07-15
 
+### Added
+- `agentctl.toml` — hub id `geronimo-iia/agent-software`, ignore list
+- `CHANGELOG.md`, `CONTRIBUTING.md`, `LICENSE` (MIT)
+
 ### Changed
 - CI workflow migrated from `agent-hub-indexer` to `agentctl`
-- `README.md` rewritten with frontmatter and topic table
+- `README.md` rewritten — opinionated intro, topics table, standards references, license and contributing links
 - `rust/ci-cd.md` — fixed deprecated `cargo publish --token` flag, added `cargo audit` step, added Release Checklist section
 - `rust/project-structure-tools.md` — added Testing Patterns section (fixtures, function pointer injection, tempdir, CLI flag isolation)
 
