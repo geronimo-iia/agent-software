@@ -12,7 +12,6 @@ This project contains knowledge documents only — no skills, no executable code
 | [python/](python/definition.md) | Project structure, tooling (uv, ruff, pyright), CI/CD |
 | [rust/](rust/definition.md) | Project structure, tooling (clippy, rustfmt), CI/CD |
 | [wasm/](wasm/definition.md) | Component model, toolchain, runtime, security |
-| [rules/](rules/definition.md) | Workspace rules best practices for AI behavior enforcement |
 | [information-flow-tracking/](information-flow-tracking/definition.md) | Taint labels, propagation rules, sink policies |
 
 
