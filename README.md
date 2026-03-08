@@ -4,6 +4,10 @@ Opinionated standards, engineering practices, and methodologies for agent softwa
 
 This project contains knowledge documents only — no skills, no executable code.
 
+## Workspace Rules
+
+The `rules/` directory contains templates for Amazon Q workspace rules that automatically activate relevant standards as context. Copy templates from `rules/templates/` to your project's `.amazonq/rules/` directory to enable automatic context inclusion when working with specific file types or topics.
+
 ## Topics
 
 ### Mature
@@ -13,6 +17,8 @@ This project contains knowledge documents only — no skills, no executable code
 | [version-control-release/](version-control-release/definition.md) | Semantic commits, SemVer, git workflows, automated releases |
 | [python/](python/definition.md) | Project structure, tooling (uv, ruff, pyright), CI/CD |
 | [rust/](rust/definition.md) | Project structure, tooling (clippy, rustfmt), CI/CD |
+| [project-management/](project-management/definition.md) | Roadmap documentation, phase-based development |
+| [rules/](rules/definition.md) | Workspace rule templates for auto-activating standards |
 
 ### Draft — needs refinement
 
