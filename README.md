@@ -6,11 +6,20 @@ This project contains knowledge documents only — no skills, no executable code
 
 ## Topics
 
+### Mature
+
 | Topic | Description |
 |---|---|
 | [version-control-release/](version-control-release/definition.md) | Semantic commits, SemVer, git workflows, automated releases |
 | [python/](python/definition.md) | Project structure, tooling (uv, ruff, pyright), CI/CD |
 | [rust/](rust/definition.md) | Project structure, tooling (clippy, rustfmt), CI/CD |
+
+### Draft — needs refinement
+
+> Specifications exist but have no implementation experience yet. Content may evolve as tooling is built.
+
+| Topic | Description |
+|---|---|
 | [wasm/](wasm/definition.md) | Component model, toolchain, runtime, security |
 | [information-flow-tracking/](information-flow-tracking/definition.md) | Taint labels, propagation rules, sink policies |
 
