@@ -6,6 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-15
+
 ### Added
 - `information-flow-tracking/` — taint labels, propagation rules, sink policies (merged from `agent-software-engineering`)
 - `version-control-release/changelog.md` — changelog standard with format, sections, update guidelines, and release process
