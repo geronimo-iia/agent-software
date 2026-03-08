@@ -6,6 +6,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- `rules/` — workspace rules best practices (merged from `agent-software-engineering`)
+- `information-flow-tracking/` — taint labels, propagation rules, sink policies (merged from `agent-software-engineering`)
+
+### Changed
+- README intro rewritten to reflect broader scope
+
 ## [0.2.0] - 2026-07-15
 
 ### Changed
