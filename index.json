@@ -3,38 +3,10 @@
   "version": "1.0",
   "entries": [
     {
-      "title": "Python",
-      "summary": "Python development standards, project structure, tooling, and best practices for software projects.",
-      "path": "python/definition.md",
-      "commit_hash": "7009cdf4afe079d09a69144426bfdd836e9a46f2",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up new Python projects",
-        "Standardizing Python project structure and tooling",
-        "Configuring Python development environments",
-        "Establishing Python code quality and testing practices"
-      ]
-    },
-    {
-      "title": "Python Project Structure & Tools",
-      "summary": "Standard Python project structure using modern tooling: pyproject.toml, uv, ruff, pyright, and pytest.",
-      "path": "python/project-structure-tools.md",
-      "commit_hash": "05b29128215bcfa5932f1092aa3b4f1afb87f28a",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up new Python projects",
-        "Standardizing Python project toolchain",
-        "Configuring modern Python development environment",
-        "Establishing Python project conventions"
-      ]
-    },
-    {
       "title": "Python CI/CD",
       "summary": "GitHub Actions workflows for Python projects using uv, ruff, pyright, and pytest with automated quality checks.",
       "path": "python/ci-cd.md",
-      "commit_hash": "7009cdf4afe079d09a69144426bfdd836e9a46f2",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -45,24 +17,188 @@
       ]
     },
     {
-      "title": "Rust",
-      "summary": "Rust development standards, project structure, tooling, and best practices for software projects.",
-      "path": "rust/definition.md",
-      "commit_hash": "",
+      "title": "Python Project Structure & Tools",
+      "summary": "Standard Python project structure using modern tooling: pyproject.toml, uv, ruff, pyright, and pytest.",
+      "path": "python/project-structure-tools.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
-        "Setting up new Rust projects",
-        "Standardizing Rust project structure and tooling",
-        "Configuring Rust development environments",
-        "Establishing Rust code quality and testing practices"
+        "Setting up new Python projects",
+        "Standardizing Python project toolchain",
+        "Configuring modern Python development environment",
+        "Establishing Python project conventions"
+      ]
+    },
+    {
+      "title": "Python",
+      "summary": "Python development standards, project structure, tooling, and best practices for software projects.",
+      "path": "python/definition.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up new Python projects",
+        "Standardizing Python project structure and tooling",
+        "Configuring Python development environments",
+        "Establishing Python code quality and testing practices"
+      ]
+    },
+    {
+      "title": "Semantic Versioning (SemVer)",
+      "summary": "Guide for semantic versioning principles and version calculation rules based on commit types.",
+      "path": "version-control-release/semantic-versioning.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Understanding semantic versioning (SemVer) format and rules",
+        "Calculating version bumps from commit types",
+        "Setting up automated version management"
+      ]
+    },
+    {
+      "title": "Automated Versioning Setup (Python)",
+      "summary": "Step-by-step guide for setting up automated semantic versioning, changelog generation, and release workflows for Python projects.",
+      "path": "version-control-release/automated-versioning-python.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Implementing semantic commits with tooling automation",
+        "Setting up commitizen and conventional commits validation",
+        "Configuring automated changelog generation and versioning",
+        "Creating CI/CD workflows for semantic releases"
+      ]
+    },
+    {
+      "title": "Semantic Commits",
+      "summary": "Guide for semantic commit format and conventions to standardize git history and enable automated versioning.",
+      "path": "version-control-release/git-commit-semantic.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up commit message standards for a project",
+        "Understanding semantic commit format and conventions",
+        "Learning conventional commits specification"
+      ]
+    },
+    {
+      "title": "Version Control & Release Management",
+      "summary": "Standards and practices for git workflows, semantic commits, versioning, and automated release processes.",
+      "path": "version-control-release/definition.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up version control standards for a project",
+        "Implementing semantic commits and automated versioning",
+        "Establishing git workflows and release processes",
+        "Configuring CI/CD for automated releases"
+      ]
+    },
+    {
+      "title": "Git Workflows & Branching Strategies",
+      "summary": "Guide for git workflow patterns, branching strategies, and release processes for software development.",
+      "path": "version-control-release/git-workflows.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up git branching strategies and workflows",
+        "Establishing release processes and branch management",
+        "Implementing GitFlow or similar workflow patterns",
+        "Managing feature, fix, and hotfix branches"
+      ]
+    },
+    {
+      "title": "Testing Information Flow Tracking",
+      "summary": "Testing strategies, methodologies, and tools for validating information flow tracking systems",
+      "path": "information-flow-tracking/testing-strategies.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Designing test suites for taint tracking systems",
+        "Validating policy enforcement and security properties",
+        "Testing performance and reliability of information flow systems",
+        "Implementing continuous testing for taint tracking"
+      ]
+    },
+    {
+      "title": "Data Flow Topology Inference",
+      "summary": "Techniques for reconstructing system topology and communication patterns from taint audit logs",
+      "path": "information-flow-tracking/data-flow-topology-inference.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Analyzing agent system communication patterns from audit data",
+        "Building data flow visualization and monitoring tools",
+        "Implementing anomaly detection for information flow systems"
+      ]
+    },
+    {
+      "title": "Information Flow Tracking Engineering",
+      "summary": "Security technique for monitoring data movement through taint labels, propagation rules, and sink policies in agent systems",
+      "path": "information-flow-tracking/definition.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Implementing taint tracking in production agent systems",
+        "Designing secure data flow architectures",
+        "Establishing information flow security practices",
+        "Building audit and compliance systems for data flow"
+      ]
+    },
+    {
+      "title": "Information Flow Tracking Architecture",
+      "summary": "Architectural patterns and design principles for implementing information flow tracking in agent systems",
+      "path": "information-flow-tracking/architecture.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Designing the architecture for a new taint tracking system",
+        "Refactoring existing systems to add information flow tracking",
+        "Choosing between different implementation approaches",
+        "Integrating taint tracking with existing agent architectures"
+      ]
+    },
+    {
+      "title": "Taint Specification Language (TSL)",
+      "summary": "Declarative data format and language for specifying taint policies, sources, sinks, and propagation rules in information flow tracking systems",
+      "path": "information-flow-tracking/taint-specification-language.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Defining taint policies declaratively instead of in code",
+        "Creating portable taint specifications across systems",
+        "Implementing policy-as-code for information flow tracking",
+        "Building taint policy validation and analysis tools"
+      ]
+    },
+    {
+      "title": "Rust CI/CD",
+      "summary": "Continuous integration and deployment pipelines for Rust projects using GitHub Actions.",
+      "path": "rust/ci-cd.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up CI/CD for Rust projects",
+        "Configuring automated testing and releases",
+        "Establishing Rust deployment workflows"
       ]
     },
     {
       "title": "Rust Project Structure & Tools",
       "summary": "Standard Rust project structure using modern tooling: Cargo.toml, clippy, rustfmt, and cargo test.",
       "path": "rust/project-structure-tools.md",
-      "commit_hash": "",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -73,23 +209,91 @@
       ]
     },
     {
-      "title": "Rust CI/CD",
-      "summary": "Continuous integration and deployment pipelines for Rust projects using GitHub Actions.",
-      "path": "rust/ci-cd.md",
-      "commit_hash": "",
+      "title": "Rust",
+      "summary": "Rust development standards, project structure, tooling, and best practices for software projects.",
+      "path": "rust/definition.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
-        "Setting up CI/CD for Rust projects",
-        "Configuring automated testing and releases",
-        "Establishing Rust deployment workflows"
+        "Setting up new Rust projects",
+        "Standardizing Rust project structure and tooling",
+        "Configuring Rust development environments",
+        "Establishing Rust code quality and testing practices"
+      ]
+    },
+    {
+      "title": "WASM Component Model",
+      "summary": "WIT interface conventions and wit-bindgen usage for agent WASM modules",
+      "path": "wasm/component-model.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Designing interfaces for WASM agent tools",
+        "Implementing WASM component bindings",
+        "Integrating WASM modules with agent systems"
+      ]
+    },
+    {
+      "title": "WASM Runtime Integration",
+      "summary": "How to integrate and execute WASM modules in agent systems using Wasmtime",
+      "path": "wasm/runtime.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Integrating WASM execution into agent runtime",
+        "Setting up Wasmtime host bindings",
+        "Configuring WASM module lifecycle management"
+      ]
+    },
+    {
+      "title": "WASM Skill Design",
+      "summary": "How to design and package WASM modules as agent skills with proper gating and tool permissions",
+      "path": "wasm/skill-design.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Packaging a WASM module as an agent skill",
+        "Designing skill interfaces for WASM tools",
+        "Setting up capability gating for WASM execution",
+        "Creating reusable WASM-based agent capabilities"
+      ]
+    },
+    {
+      "title": "WASM Security and Sandboxing",
+      "summary": "Security patterns for WASM agent tools including dual metering, capability isolation, and sandbox configuration",
+      "path": "wasm/security.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Implementing secure WASM tool execution",
+        "Configuring resource limits for untrusted code",
+        "Setting up capability-based access control",
+        "Designing sandbox isolation for agent tools"
+      ]
+    },
+    {
+      "title": "WASM CI/CD Pipeline",
+      "summary": "Build pipeline, Docker builder, and testing strategies for WASM modules",
+      "path": "wasm/ci-cd.md",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+      "last_updated": "2025-01-16",
+      "status": "active",
+      "read_when": [
+        "Setting up automated builds for WASM modules",
+        "Configuring Docker-based WASM builds",
+        "Implementing WASM module testing"
       ]
     },
     {
       "title": "WebAssembly (WASM) Development Standards",
       "summary": "Standards and practices for developing WebAssembly modules in agent systems",
       "path": "wasm/definition.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -103,7 +307,7 @@
       "title": "WASM Toolchain Setup",
       "summary": "Standard toolchain configuration for WebAssembly development with Rust",
       "path": "wasm/toolchain.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
+      "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -111,146 +315,11 @@
         "Configuring build tools for WASM modules",
         "Troubleshooting WASM compilation issues"
       ]
-    },
-    {
-      "title": "WASM Skill Design",
-      "summary": "How to design and package WASM modules as agent skills with proper gating and tool permissions",
-      "path": "wasm/skill-design.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Packaging a WASM module as an agent skill",
-        "Designing skill interfaces for WASM tools",
-        "Setting up capability gating for WASM execution",
-        "Creating reusable WASM-based agent capabilities"
-      ]
-    },
-    {
-      "title": "WASM Component Model",
-      "summary": "WIT interface conventions and wit-bindgen usage for agent WASM modules",
-      "path": "wasm/component-model.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Designing interfaces for WASM agent tools",
-        "Implementing WASM component bindings",
-        "Integrating WASM modules with agent systems"
-      ]
-    },
-    {
-      "title": "WASM Runtime Integration",
-      "summary": "How to integrate and execute WASM modules in agent systems using Wasmtime",
-      "path": "wasm/runtime.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Integrating WASM execution into agent runtime",
-        "Setting up Wasmtime host bindings",
-        "Configuring WASM module lifecycle management"
-      ]
-    },
-    {
-      "title": "WASM CI/CD Pipeline",
-      "summary": "Build pipeline, Docker builder, and testing strategies for WASM modules",
-      "path": "wasm/ci-cd.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up automated builds for WASM modules",
-        "Configuring Docker-based WASM builds",
-        "Implementing WASM module testing"
-      ]
-    },
-    {
-      "title": "WASM Security and Sandboxing",
-      "summary": "Security patterns for WASM agent tools including dual metering, capability isolation, and sandbox configuration",
-      "path": "wasm/security.md",
-      "commit_hash": "300f3e874ae3d4b7875f8f2e2ee9ab9b408dc6de",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Implementing secure WASM tool execution",
-        "Configuring resource limits for untrusted code",
-        "Setting up capability-based access control",
-        "Designing sandbox isolation for agent tools"
-      ]
-    },
-    {
-      "title": "Version Control & Release Management",
-      "summary": "Standards and practices for git workflows, semantic commits, versioning, and automated release processes.",
-      "path": "version-control-release/definition.md",
-      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up version control standards for a project",
-        "Implementing semantic commits and automated versioning",
-        "Establishing git workflows and release processes",
-        "Configuring CI/CD for automated releases"
-      ]
-    },
-    {
-      "title": "Semantic Commits",
-      "summary": "Guide for semantic commit format and conventions to standardize git history and enable automated versioning.",
-      "path": "version-control-release/git-commit-semantic.md",
-      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up commit message standards for a project",
-        "Understanding semantic commit format and conventions",
-        "Learning conventional commits specification"
-      ]
-    },
-    {
-      "title": "Semantic Versioning (SemVer)",
-      "summary": "Guide for semantic versioning principles and version calculation rules based on commit types.",
-      "path": "version-control-release/semantic-versioning.md",
-      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Understanding semantic versioning (SemVer) format and rules",
-        "Calculating version bumps from commit types",
-        "Setting up automated version management"
-      ]
-    },
-    {
-      "title": "Git Workflows & Branching Strategies",
-      "summary": "Guide for git workflow patterns, branching strategies, and release processes for software development.",
-      "path": "version-control-release/git-workflows.md",
-      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Setting up git branching strategies and workflows",
-        "Establishing release processes and branch management",
-        "Implementing GitFlow or similar workflow patterns",
-        "Managing feature, fix, and hotfix branches"
-      ]
-    },
-    {
-      "title": "Automated Versioning Setup (Python)",
-      "summary": "Step-by-step guide for setting up automated semantic versioning, changelog generation, and release workflows for Python projects.",
-      "path": "version-control-release/automated-versioning-python.md",
-      "commit_hash": "9e47905f7f2a330f5060e4ed3094c9e4861b8182",
-      "last_updated": "2025-01-16",
-      "status": "active",
-      "read_when": [
-        "Implementing semantic commits with tooling automation",
-        "Setting up commitizen and conventional commits validation",
-        "Configuring automated changelog generation and versioning",
-        "Creating CI/CD workflows for semantic releases"
-      ]
     }
   ],
   "metadata": {
-    "generated_at": "2025-01-16T00:00:00Z",
-    "commit_hash": "2acd616e435519baf6ed65d2db1cc06bb1976fdc",
-    "total_entries": 18
+    "generated_at": "2026-03-08T18:46:26.829707957+00:00",
+    "commit_hash": "a4d61f68f850dff119919f99104985f149c8e645",
+    "total_entries": 23
   }
 }
