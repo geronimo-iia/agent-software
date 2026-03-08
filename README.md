@@ -1,21 +1,40 @@
 # Agent Software
 
-Software development standards, practices, and tooling specifications for agent development projects.
+Opinionated software development standards organized by language and practice area.
+
+This project contains knowledge documents only — no skills, no executable code.
 
 ## Topics
 
-- **version-control-release/** - Version control standards, semantic commits, semantic versioning, and automated release processes
-- **python/** - Python development standards, project structure, tooling, and CI/CD practices
-- **rust/** - Rust development standards, project structure, tooling, and CI/CD practices
-- **wasm/** - WebAssembly component model, toolchain, runtime, and security standards
+| Topic | Description |
+|---|---|
+| [version-control-release/](version-control-release/definition.md) | Semantic commits, SemVer, git workflows, automated releases |
+| [python/](python/definition.md) | Project structure, tooling (uv, ruff, pyright), CI/CD |
+| [rust/](rust/definition.md) | Project structure, tooling (clippy, rustfmt), CI/CD |
+| [wasm/](wasm/definition.md) | Component model, toolchain, runtime, security |
 
-## Organization
 
-This repository contains software development specifications organized by topic. Each topic includes:
-- `definition.md` - What the topic covers and when to reference it
-- Topic-specific documentation with implementation guides and standards
+## Structure
 
-## Status
+Each topic contains:
+- `definition.md` — scope and when to reference
+- Topic-specific guides with implementation standards
 
-Active topics: version-control-release, python, rust, wasm
-All software development standards are finalized specifications.
+## Standards & Conventions
+
+This project follows the foundational specifications from [agent-foundation](../agent-foundation/):
+
+- [Documentation Authoring](../agent-foundation/docs/authoring-guide.md) — frontmatter schema (`title`, `summary`, `read_when`, `status`)
+- [Hub Configuration](../agent-foundation/docs/hub-configuration.md) — agentctl.toml format and hub registration
+
+## Index
+
+`index.json` is auto-generated on push to `main` via [`.github/workflows/publish.yml`](.github/workflows/publish.yml) using `agentctl`.
+
+## License
+
+[MIT](LICENSE)
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
