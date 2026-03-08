@@ -230,6 +230,77 @@ cargo publish
 - Use doc tests for examples
 - Use `proptest` for property-based testing
 
+## Testing Patterns
+
+### Fixtures
+
+Store static test data in `tests/fixtures/`. Load with `include_str!` or by path:
+
+```rust
+// tests/fixtures/config-valid.json
+// Load in tests:
+let path = Path::new("tests/fixtures/config-valid.json");
+let config = Config::load_from(path).unwrap();
+```
+
+Prefer fixtures over inline strings for non-trivial data (JSON, TOML, Markdown).
+
+### Function pointer injection
+
+For functions that perform I/O (HTTP, filesystem), define a `Fetcher` type alias and inject it:
+
+```rust
+pub type Fetcher = fn(&str) -> Result<String>;
+
+pub fn get_from(dir: &Path, url: &str, fetcher: Fetcher) -> Result<String> {
+    // use fetcher instead of direct HTTP call
+}
+
+// Production call:
+get_from(dir, url, http_fetch)
+
+// Test call:
+fn ok_fetcher(_url: &str) -> Result<String> { Ok("...".into()) }
+fn err_fetcher(_url: &str) -> Result<String> { Err(anyhow!("fail")) }
+get_from(dir, url, ok_fetcher)
+```
+
+Prefer function pointers over trait objects for simple injection — no `dyn`, no `Arc`, no `mockall`.
+
+### Isolated filesystem tests
+
+Use `tempfile::tempdir()` to avoid polluting `~/.agentctl` or other real paths:
+
+```rust
+// [dev-dependencies]
+// tempfile = "3"
+
+#[test]
+fn test_writes_cache() {
+    let dir = tempfile::tempdir().unwrap();
+    refresh_to(dir.path(), "http://example.com", ok_fetcher).unwrap();
+    assert!(dir.path().join("index.json").exists());
+}
+```
+
+### Integration test isolation via CLI flag
+
+Expose a `--config <path>` global flag so integration tests can point to a temp config:
+
+```rust
+fn with_config(dir: &Path) -> Vec<&str> {
+    vec!["--config", dir.join("config.json").to_str().unwrap()]
+}
+
+// Usage:
+Command::cargo_bin("agentctl")
+    .args(with_config(&dir))
+    .args(["hub", "list"])
+    .assert().success();
+```
+
+This keeps integration tests fully isolated from the user's real config.
+
 ## Common Dependencies
 
 ### CLI
