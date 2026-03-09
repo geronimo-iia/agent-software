@@ -6,7 +6,7 @@
       "title": "Python CI/CD",
       "summary": "GitHub Actions workflows for Python projects using uv, ruff, pyright, and pytest with automated quality checks.",
       "path": "python/ci-cd.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -20,7 +20,7 @@
       "title": "Python Project Structure & Tools",
       "summary": "Standard Python project structure using modern tooling: pyproject.toml, uv, ruff, pyright, and pytest.",
       "path": "python/project-structure-tools.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -34,7 +34,7 @@
       "title": "Python",
       "summary": "Python development standards, project structure, tooling, and best practices for software projects.",
       "path": "python/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -48,7 +48,7 @@
       "title": "Semantic Versioning (SemVer)",
       "summary": "Guide for semantic versioning principles and version calculation rules based on commit types.",
       "path": "version-control-release/semantic-versioning.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -61,7 +61,7 @@
       "title": "Automated Versioning Setup (Python)",
       "summary": "Step-by-step guide for setting up automated semantic versioning, changelog generation, and release workflows for Python projects.",
       "path": "version-control-release/automated-versioning-python.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -75,7 +75,7 @@
       "title": "Semantic Commits",
       "summary": "Guide for semantic commit format and conventions to standardize git history and enable automated versioning.",
       "path": "version-control-release/git-commit-semantic.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -88,7 +88,7 @@
       "title": "Version Control & Release Management",
       "summary": "Standards and practices for git workflows, semantic commits, versioning, and automated release processes.",
       "path": "version-control-release/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -102,7 +102,7 @@
       "title": "Git Workflows & Branching Strategies",
       "summary": "Guide for git workflow patterns, branching strategies, and release processes for software development.",
       "path": "version-control-release/git-workflows.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -116,7 +116,7 @@
       "title": "Workspace Rules Standards",
       "summary": "Standards for creating Amazon Q workspace rules that auto-activate relevant documentation.",
       "path": "rules/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2026-07-16",
       "status": "draft",
       "read_when": [
@@ -129,7 +129,7 @@
       "title": "Testing Information Flow Tracking",
       "summary": "Testing strategies, methodologies, and tools for validating information flow tracking systems",
       "path": "information-flow-tracking/testing-strategies.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -143,7 +143,7 @@
       "title": "Data Flow Topology Inference",
       "summary": "Techniques for reconstructing system topology and communication patterns from taint audit logs",
       "path": "information-flow-tracking/data-flow-topology-inference.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -156,7 +156,7 @@
       "title": "Information Flow Tracking Engineering",
       "summary": "Security technique for monitoring data movement through taint labels, propagation rules, and sink policies in agent systems",
       "path": "information-flow-tracking/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -170,7 +170,7 @@
       "title": "Information Flow Tracking Architecture",
       "summary": "Architectural patterns and design principles for implementing information flow tracking in agent systems",
       "path": "information-flow-tracking/architecture.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -184,7 +184,7 @@
       "title": "Taint Specification Language (TSL)",
       "summary": "Declarative data format and language for specifying taint policies, sources, sinks, and propagation rules in information flow tracking systems",
       "path": "information-flow-tracking/taint-specification-language.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -198,7 +198,7 @@
       "title": "Roadmap Documentation Standards",
       "summary": "Standards for creating and maintaining project roadmaps with phase-based development.",
       "path": "project-management/roadmap-documentation.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2026-07-16",
       "status": "draft",
       "read_when": [
@@ -211,7 +211,7 @@
       "title": "Project Management Standards",
       "summary": "Standards and practices for managing software development projects.",
       "path": "project-management/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2026-07-16",
       "status": "draft",
       "read_when": [
@@ -224,7 +224,7 @@
       "title": "Rust CI/CD",
       "summary": "Continuous integration and deployment pipelines for Rust projects using GitHub Actions.",
       "path": "rust/ci-cd.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -237,7 +237,7 @@
       "title": "Rust Project Structure & Tools",
       "summary": "Standard Rust project structure using modern tooling: Cargo.toml, clippy, rustfmt, and cargo test.",
       "path": "rust/project-structure-tools.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -251,7 +251,7 @@
       "title": "Rust",
       "summary": "Rust development standards, project structure, tooling, and best practices for software projects.",
       "path": "rust/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -265,7 +265,7 @@
       "title": "WASM Component Model",
       "summary": "WIT interface conventions and wit-bindgen usage for agent WASM modules",
       "path": "wasm/component-model.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -278,7 +278,7 @@
       "title": "WASM Runtime Integration",
       "summary": "How to integrate and execute WASM modules in agent systems using Wasmtime",
       "path": "wasm/runtime.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -291,7 +291,7 @@
       "title": "WASM Skill Design",
       "summary": "How to design and package WASM modules as agent skills with proper gating and tool permissions",
       "path": "wasm/skill-design.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -305,7 +305,7 @@
       "title": "WASM Security and Sandboxing",
       "summary": "Security patterns for WASM agent tools including dual metering, capability isolation, and sandbox configuration",
       "path": "wasm/security.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -319,7 +319,7 @@
       "title": "WASM CI/CD Pipeline",
       "summary": "Build pipeline, Docker builder, and testing strategies for WASM modules",
       "path": "wasm/ci-cd.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -332,7 +332,7 @@
       "title": "WebAssembly (WASM) Development Standards",
       "summary": "Standards and practices for developing WebAssembly modules in agent systems",
       "path": "wasm/definition.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -346,7 +346,7 @@
       "title": "WASM Toolchain Setup",
       "summary": "Standard toolchain configuration for WebAssembly development with Rust",
       "path": "wasm/toolchain.md",
-      "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+      "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
       "last_updated": "2025-01-16",
       "status": "active",
       "read_when": [
@@ -357,8 +357,8 @@
     }
   ],
   "metadata": {
-    "generated_at": "2026-03-08T23:30:13.874370745+00:00",
-    "commit_hash": "c294e282d57609e6f8d5f01d5f31c433160a52e3",
+    "generated_at": "2026-03-09T11:38:18.205343338+00:00",
+    "commit_hash": "7b50ed3872b05b0b10b980413d1cc7102bd1864f",
     "total_entries": 26
   }
 }
