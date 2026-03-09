@@ -44,10 +44,12 @@ nav:
   - Standards:
     - Python: python/definition.md
     - Rust: rust/definition.md
-    - WASM: wasm/definition.md
     - Version Control: version-control-release/definition.md
-    - Information Flow Tracking: information-flow-tracking/definition.md
+    - Project Management: project-management/definition.md
     - Rules: rules/definition.md
+  - Draft Specifications:
+    - WASM: wasm/definition.md
+    - Information Flow Tracking: information-flow-tracking/definition.md
   - Reference:
     - Changelog: CHANGELOG.md
     - Contributing: CONTRIBUTING.md
