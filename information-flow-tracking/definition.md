@@ -13,6 +13,8 @@ last_updated: "2025-01-16"
 
 # Information Flow Tracking Engineering
 
+> **Draft specification**: This specification exists but has no implementation experience yet. Content may evolve as tooling is built.
+
 ## Definition
 
 Information Flow Tracking (IFT) is a security technique that monitors how data moves through a system by attaching metadata ("taints") to values and propagating these labels as data flows between components. IFT enables systems to enforce policies about what operations are permitted on data based on its origin, sensitivity, or trust level.

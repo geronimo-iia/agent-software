@@ -12,6 +12,8 @@ last_updated: "2025-01-16"
 
 # WebAssembly (WASM) Development Standards
 
+> **Draft specification**: This specification exists but has no implementation experience yet. Content may evolve as tooling is built.
+
 ## What is WebAssembly
 
 WebAssembly (WASM) is a binary instruction format — compact, portable bytecode that runs in a sandboxed execution environment. Originally designed for browsers, WASM is now widely used server-side as a secure execution primitive for untrusted code.
