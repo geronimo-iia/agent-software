@@ -38,10 +38,10 @@ Each topic contains:
 
 ## Standards & Conventions
 
-This project follows the foundational specifications from [agent-foundation](../agent-foundation/):
+This project follows the foundational specifications from [agent-foundation](https://geronimo-iia.github.io/agent-foundation/):
 
-- [Documentation Authoring](../agent-foundation/docs/authoring-guide.md) — frontmatter schema (`title`, `summary`, `read_when`, `status`)
-- [Hub Configuration](../agent-foundation/docs/hub-configuration.md) — agentctl.toml format and hub registration
+- [Documentation Authoring](https://geronimo-iia.github.io/agent-foundation/docs/authoring-guide/) — frontmatter schema (`title`, `summary`, `read_when`, `status`)
+- [Hub Configuration](https://geronimo-iia.github.io/agent-foundation/docs/hub-configuration/) — agentctl.toml format and hub registration
 
 ## Index
 
@@ -49,7 +49,7 @@ This project follows the foundational specifications from [agent-foundation](../
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE.md)
 
 ## Contributing
 

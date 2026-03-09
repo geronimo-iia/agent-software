@@ -4,8 +4,8 @@
 
 All `.md` files (except `README.md`, `CHANGELOG.md`, `CONTRIBUTING.md`, `ARCHIVED.md`) must include YAML frontmatter. Follow the authoring standard:
 
-- [Documentation Authoring](../agent-foundation/docs/authoring-guide.md) — required fields (`title`, `summary`, `read_when`), field rules, and examples
-- [Specification Organization](../agent-foundation/docs/organization.md) — where to place new documents, naming conventions, domain placement workflow
+- [Documentation Authoring](https://geronimo-iia.github.io/agent-foundation/docs/authoring-guide/) — required fields (`title`, `summary`, `read_when`), field rules, and examples
+- [Specification Organization](https://geronimo-iia.github.io/agent-foundation/docs/organization/) — where to place new documents, naming conventions, domain placement workflow
 
 ## Adding a new topic
 

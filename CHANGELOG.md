@@ -11,12 +11,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `project-management/` — roadmap documentation standards and phase-based development methodology
 - `rules/` — workspace rule templates for auto-activating relevant standards as context
 - `rules/templates/` — ready-to-use rule templates for Rust, Python, WASM, version control, information flow tracking, and project management
+- GitHub Pages documentation site with MkDocs Material theme
+- Automatic deployment workflow for documentation updates
 
 ### Changed
 
 - Updated `agentctl.toml` to exclude `rules/templates/` from hub generation
 - Moved `project-management/` and `rules/` from draft to mature status in README
 - Added workspace rules explanation to README
+- Renamed LICENSE to LICENSE.md for consistency
+- Updated agent-foundation links to use GitHub Pages URLs
+- Added LICENSE.md to agentctl ignore list
 
 ## [0.3.0] - 2026-07-15
 

@@ -1,0 +1,56 @@
+site_name: Agent Software
+site_description: Software development standards and practices for agent systems
+site_url: https://geronimo-iia.github.io/agent-software/
+repo_url: https://github.com/geronimo-iia/sp_theory
+repo_name: geronimo-iia/sp_theory
+
+# Use mkdocs_temp as docs directory
+docs_dir: mkdocs_temp
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Standards:
+    - Python: python/definition.md
+    - Rust: rust/definition.md
+    - WASM: wasm/definition.md
+    - Version Control: version-control-release/definition.md
+    - Information Flow Tracking: information-flow-tracking/definition.md
+    - Rules: rules/definition.md
+  - Reference:
+    - Changelog: CHANGELOG.md
+    - Contributing: CONTRIBUTING.md
+    - License: LICENSE.md
+
+copyright: Copyright &copy; 2026 Jerome Guibert
